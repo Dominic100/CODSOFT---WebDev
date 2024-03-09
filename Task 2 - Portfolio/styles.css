@@ -1,0 +1,470 @@
+body {
+    font-family: Arial, sans-serif, 'DOOMFont';
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-family: DOOMFont, sans-serif;
+    font-size: 200px;
+    padding: 0;
+    opacity: 100%;
+}
+
+.subheading {
+    top: 10%;
+    bottom: 0;
+    font-size: 100px;
+    color: white;
+    font-family: Wolfenstein, sans-serif;
+    z-index: 2;
+}
+
+.container {
+    position: relative;
+}
+
+header, section, footer {
+    padding: 10px;
+}
+
+header {
+    position: relative;
+    background: transparent;
+    color: #b8860b;
+    text-align: center;
+    overflow: hidden;
+    height: 230px;
+    width: 900px;
+    /*border-radius: 50%;*/
+    padding: 10px 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(30%);
+}
+
+.headingUnderlainText {
+    position: absolute;
+    top: 20px;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    border-radius: 5px;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 330px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+#contact p {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+@font-face {
+    font-family: 'DOOMFont';
+    src: url('C:/Internship Projects/CodSoft Web Development Internship/Level 1/Task 2 - Portfolio/Fonts/Doomzday FV Alphabet Agency/doOmzday FV.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Wolfenstein';
+    src: url("C:/Internship Projects/CodSoft Web Development Internship/Level 1/Task 2 - Portfolio/Fonts/wolfenstein/wolfenstein.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('C:/Internship Projects/CodSoft Web Development Internship/Level 1/Task 2 - Portfolio/Fonts/Nexa-Rust/NexaRustHandmade-Extended.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('C:/Internship Projects/CodSoft Web Development Internship/Level 1/Task 2 - Portfolio/Fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.navbar-brand {
+    font-family: DOOMFont, sans-serif;
+    font-size: 70px;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.nav-link {
+    font-family: Wolfenstein, sans-serif;
+    font-size: 50px;
+}
+
+.about-container h2 {
+    font-family: Wolfenstein, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.about-container {
+    width: 900px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    margin: auto;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.about-container:hover {
+    box-shadow: 0 0 100px 20px rgba(255, 255, 255, 0.7);
+}
+
+.about-container img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.about-paragraph {
+    margin-top: 30px;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+.skills-container {
+    width: 900px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    margin: auto;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.skills-container:hover {
+    box-shadow: 0 0 100px 20px rgba(192, 192, 192, 0.5);
+}
+
+.skills-container ul {
+    list-style-type: circle;
+    padding: 0;
+}
+
+.skills-container li {
+    margin: 10px;
+    padding-top: 2px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-family: DOOMFont, sans-serif;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.skills-container li:hover {
+    height: 50px;
+    font-size: 35px;
+    background-color: white;
+    color: #343a40;
+    margin: auto;
+    box-shadow: 0 0 100px 20px rgba(192, 192, 192, 0.5);
+}
+
+.skills-container h2 {
+    font-family: Wolfenstein, sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.timeline {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    margin: auto;
+    z-index: 1;
+}
+
+.timeline li {
+    margin-bottom: 20px;
+}
+
+.timeline li::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #007bff;
+    z-index: -1;
+}
+
+.timeline li:nth-child(odd)::before {
+    transform: skewY(30deg);
+    transform-origin: bottom;
+}
+
+.timeline li:nth-child(even)::before {
+    transform: skewY(-30deg);
+    transform-origin: top;
+}
+
+.timeline li:last-child::before {
+    height: 50%;
+}
+
+.timeline-content {
+    padding-left: 70px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.education {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.education:hover {
+    box-shadow: 0 0 100px 20px rgba(255, 255, 255, 0.7);
+}
+
+.education h2 {
+    font-family: Wolfenstein, sans-serif;
+    font-size: 100px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.education h3 {
+    font-family: Wolfenstein, sans-serif;
+    font-size: 50px;
+}
+
+.education p {
+    font-family: Raleway, sans-serif;
+}
+
+.highlight {
+    font-weight: bolder;
+}
+
+.main-project-container {
+    text-align: center;
+    border-radius: 20px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.main-project-container:hover {
+    box-shadow: 0 0 100px 20px rgba(192, 192, 192, 0.5);
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project {
+    flex: 0 0 30%;
+    margin: 10px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: max-height 1s ease;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-family: Wolfenstein, sans-serif;
+    font-size: 50px;
+}
+
+.project p {
+    margin-bottom: 10px;
+    font-family: Raleway, sans-serif;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+.main-project-container h2 {
+    font-family: Wolfenstein, sans-serif;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.project-content {
+    display: none;
+    transition: max-height 1s ease;
+}
+
+.project.expanded .project-content {
+    display: block;
+    transition: max-height 1s ease;
+}
+
+.resume-container {
+    width: 900px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    margin: auto;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.resume-container:hover {
+    box-shadow: 0 0 100px 20px rgba(192, 192, 192, 0.5);
+}
+
+.resume-container h2 {
+    font-family: Wolfenstein, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.resume-container a {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.button {
+    font-family: DOOMFont, sans-serif;
+    background-color: #343a40;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: white;
+    color: #343a40;
+}
+
+#contact {
+    background-color: #343a40;
+    padding: 50px 0;
+}
+
+.contact-container {
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-family: Wolfenstein, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-family: Wolfenstein, sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #666;
+}
+
+.contact-info a {
+    font-family: sans-serif;
+    font-size: 23px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: darkgray;
+}
+
+.sharing-section {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.sharing-section h2 {
+    margin-bottom: 20px;
+    color: black;
+    font-family: Wolfenstein, sans-serif;
+    font-size: 100px;
+    text-align: center;
+}
+
+i {
+    list-style: none;
+    padding: 0;
+    font-size: 2em;
+    margin: 10px;
+    color: saddlebrown;
+}
+
+i:hover {
+    color: darkgoldenrod;
+}

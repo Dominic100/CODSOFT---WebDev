@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5dcc4ae514.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container bg-dark">
+            <h1>AD</h1>
+            <div class="headingUnderlainText">
+                <p class="subheading">My Portfolio</p>
+            </div>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-shape"></div>
+        <div class="container">
+            <a class="navbar-brand" href="#" style="font-size: 50px">Aneesh Deshmukh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#resume">Resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Me</h2>
+            <img src="C:\\Internship Projects\\CodSoft Web Development Internship\\Level 1\\Task 2 - Portfolio\\Images\\profile_pic.jpg" alt="IMG">
+            <p class="about-paragraph">I am currently a second-year college student pursuing my Bachelor of Technology (B.Tech) degree in AIDS (Artificial Intelligence and Data Science) at Vishwakarma Institute of Technology (VIT). With a passion for technology and a keen interest in the field of artificial intelligence and data science, I am dedicated to expanding my knowledge and skills in this rapidly evolving domain. I am enthusiastic about exploring innovative solutions to real-world challenges and contributing to advancements in AI and data science.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="skills">
+        <div class="skills-container bg-dark">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>UI/UX Design</li>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+                <li>Data Science</li>
+                <li>Cybersecurity</li>
+                <li>Microsoft Azure Machine Learning</li>
+                <li>Natural Language Processing (NLP)</li>
+            </ul>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <div class="education">
+        <h2>Education</h2>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>Rosary School</p>
+                    <p>Branch: ICSE</p>
+                    <p>Graduated: 2019</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3>Junior College</h3>
+                    <p>RAO Junior College of Science (RJCS)</p>
+                    <p>Branch: HSC</p>
+                    <p>Graduated: 2021</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3>B.Tech</h3>
+                    <p>Vishwakarma Institute of Technology (VIT)</p>
+                    <p>Branch: Artificial Intelligence and Data Science (AIDS)</p>
+                    <p>Graduation Year: 2026</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3>Internships</h3>
+                    <p>AI Training Intern at Coincent.ai (Jan 2023 - Apr 2023)</p>
+                    <p>Data Science Intern at Skillvoid Technologies (May 2023 - Sep 2023)</p>
+                    <p>Data Science Intern at Codsoft (Jan 2023)</p>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-content">
+                    <h3>Licenses & Certifications</h3>
+                    <p><span class="highlight">Data Science</span> - CodSoft</p>
+                    <p><span class="highlight">Cyber Defense Engineering using Python</span> - Cybervidyapeeth Foundation</p>
+                    <p><span class="highlight">Data Science</span> - Skillvoid Technologies</p>
+                    <p><span class="highlight">Microsoft Certified: Azure AI Fundamentals</span> - Microsoft</p>
+                    <p><span class="highlight">Artificial Intelligence with Python</span> - Coincent.ai</p>
+                    <p><span class="highlight">Simple Statistics for User Experience Projects</span> - LinkedIn</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <br>
+    <br>
+    <br>
+    <section id="projects">
+        <div class="main-project-container bg-dark">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project" onclick="toggleDescription(this)">
+                    <h3>IoT-based Smart Pill Dispenser</h3>
+                    <div class="project-content">
+                        <p>The IoT-based Smart Medicine Pill Dispenser is like your personal medication buddy, especially designed to help out our elderly and those struggling with memory. It takes the hassle out of managing medications, ensuring they're taken on time, every time.</p>
+                        <p>So, here's the deal: we brought together some cool IoT tech with a nifty dispenser device and a handy mobile app. This dispenser knows its stuff - it's programmed to pop out your meds exactly when you need them, all based on your schedule. And that app? It's like your medication planner on the go. You can set up your med schedule, get reminders, and even let your caregivers or docs peek in remotely to make sure you're staying on track.</p>
+                        <p>We wanted to keep things simple and easy to use, so we mixed in both hardware and software magic. Our goal? To make life a bit easier for folks dealing with medication routines and ultimately, to improve their well-being. This project is all about using tech to tackle real-life health challenges and make a positive difference in people's lives.</p>
+                        <img src="C:\\Internship Projects\\CodSoft Web Development Internship\\Level 1\\Task 2 - Portfolio\\Images\\ProjectPicture1.jpg" alt="Project 1">
+                    </div>
+                </div>
+                <div class="project" onclick="toggleDescription(this)">
+                    <h3>IoT-based Smart Bus Fare Collection</h3>
+                    <div class="project-content">
+                        <p>In Development
+                    </div>
+                </div>
+                <div class="project" onclick="toggleDescription(this)">
+                    <h3>Internship Website</h3>
+                    <div class="project-content">
+                        <p>In Development
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="resume">
+        <div class="resume-container">
+            <h2 class="text-center">Resume</h2>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="C:\\Internship Projects\\CodSoft Web Development Internship\\Level 1\\Task 2 - Portfolio\\Files\\Resume-Aneesh-Deshmukh_LinkedIn.pdf" class="button" target="_blank" download style="text-decoration: none;">Download Resume</a>
+                    <a href="" class="button" target="_blank" download style="text-decoration: none;">Github</a>
+                    <a href="" class="button" target="_blank" download style="text-decoration: none;">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section id="contact">
+        <div class="contact-container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p>Email: <a href="mailto:aneeshdeshmukh3@gmail.com" style="text-decoration: none">aneeshdeshmukh3@gmail.com</a></p>
+                <p>Phone: <a href="tel:***-***-****" style="text-decoration: none">***-***-****</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="sharing-section">
+        <div class="sharing-container">
+            <h2>My Socials</h2>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <a href="https:/www.linkedin.com/in/aneesh-deshmukh-093144252" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Aneesh Deshmukh</p>
+        </div>
+    </footer>
+</body>
+</html>
